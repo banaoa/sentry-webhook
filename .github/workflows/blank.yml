@@ -17,6 +17,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: | 
-          cd ~/data/
-          git clone https://github.com/banaoa/sentry-webhook.git
+          cd /root/data/sentry-webhook
+          git checkout .
+          git pull
 
