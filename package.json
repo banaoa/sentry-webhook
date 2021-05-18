@@ -4,6 +4,7 @@
   "description": "",
   "main": "start.js",
   "dependencies": {
+    "dingtalk-robot-sender": "^1.2.0",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0"
   },
