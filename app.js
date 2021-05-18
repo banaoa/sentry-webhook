@@ -26,7 +26,7 @@ app.use(async (ctx) => {
         let textContent = {
             "msgtype": "text",
             "text": {
-                "content": postData.data.issue.title
+                "content": JSON.stringify(postData)
             }
         }
         robot.send(textContent)
